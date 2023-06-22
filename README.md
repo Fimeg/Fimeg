@@ -71,6 +71,6 @@ Here are some ideas to get you started: -->
 ## 📊 My GitHub Data:
 
 <div align="center">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=soumyajit4419&show_icons=true" />
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=soumyajit4419&" alt="soumyajit" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=Fimeg&show_icons=true" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Fimeg&" alt="Fimeg" />
 </div>
