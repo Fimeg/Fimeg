@@ -15,11 +15,11 @@ Here are some ideas to get you started: -->
 
 <img  src="./thoughtworks-gif_dribbble.gif" height="290px" align="right" />
 
-- 🙋‍♂️ All about me is at **[My Website](https://bio.wiuf.net)**
+- 🙋‍♂️ All about me is on **[My Bio](https://bio.wiuf.net)**
 
-- 🔭 I’m currently working on `Something Intresting`.
+- 🔭 I’m currently working on `Something Intresting` with training LLM's off of my files.
 
-- 🌱 I’m currently learning `Node.JS`
+- 🌱 I’m currently learning `Node.JS` and interested in solar `arrays`.
 
 - 👯 I’m looking to collaborate for `Dev Projects`
 
