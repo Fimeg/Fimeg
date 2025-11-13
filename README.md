@@ -1,4 +1,4 @@
-<h1 align="center">Hello. We hope what you find is useful.</h1>
+<h1 align="left">Hello.</h1> <h1 align="center">We hope what you find is useful.</h1>
 
 Casey Tunturi | Infrastructure & Systems
 <div align="center">
@@ -9,17 +9,17 @@ Casey Tunturi | Infrastructure & Systems
 
 Current Projects
 
-[PROJECT] RedFlag - Self-hosted update management for homelabs
+[PROJECT] <a href="github.com/Fimeg/Redflag" target="_blank>RedFlag</a> - Self-hosted update management for homelabs
 Status: stable alpha | Go + React + PostgreSQL
 github.com/Fimeg/RedFlag
 Notes: Cross-platform agents, Ed25519 signing, machine binding. Firewall-friendly pull model. Production? No. Homelab? Yes.
 
-[PROJECT] Coquette & CoquetteMobile - Local-first AI assistant with multi-model orchestration
+[PROJECT] <a href="github.com/Fimeg/CoquetteMobile" target="_blank>Coquette & CoquetteMobile</a> - Local-first AI assistant with multi-model orchestration
 Status: Experimental | Manager concept + Android proof-of-concept
 CoquetteMobile features: HID injection for device control, on-device inference
-Philosophy: AI sovereignty through local execution
+Keep It Simple Stupid - AI sovereignty through local execution
 
-[PROJECT] NetworkChronicles - Gamified Linux documentation system
+[PROJECT] <a href="github.com/Fimeg/NetworkChronicles" target="_blank>NetworkChronicles</a> - Gamified Linux documentation system
 Status: Concept stage | Cyberpunk-themed sysadmin training adventure
 Note: Transforming dry docs into narrative-driven learning
 
@@ -41,8 +41,8 @@ Principles, CEO/Owner, CTO, and a uncountable number of other.
 
 Connect & Support
 
-Code & Thoughts: github.com/Fimeg | caseytunturi.com
-Professional: linkedin.com/in/casey-tunturi
+Code & Thoughts:  <a href="github.com/Fimeg" target="_blank>github.com/Fimeg</a> | <a href="caseytunturi.com" target="_blank>caseytunturi.com</a> 
+Professional: <a href="https://www.linkedin.com/in/casey-tunturi" target="_blank>linkedin.com/in/casey-tunturi</a>
 Status: Open to work | Non-profit collaboration welcome
 Coffee fuels this: <a href="https://www.buymeacoffee.com/caseytunturi" target="_blank">Buy Me a Coffee</a>
 GitHub Activity
