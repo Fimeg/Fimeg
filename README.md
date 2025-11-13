@@ -1,6 +1,6 @@
 <h1 align="left">Hello.</h1> <h1 align="center">We hope what you find is useful.</h1>
 
-Casey Tunturi | Infrastructure & Systems
+Casey Tunturi <br> Infrastructure & Systems
 <div align="center">
   <strong>Principal Infrastructure Architect / Ex-CEO </strong><br>
   walking the line between arcane and algorithmic<br>
@@ -42,8 +42,8 @@ Principles, CEO/Owner, CTO, and a uncountable number of other.
 
 
 
-Code & Thoughts:  <a href="github.com/Fimeg" target="_blank">github.com/Fimeg</a> | <a href="caseytunturi.com" target="_blank">caseytunturi.com</a> 
-Professional: <a href="https://www.linkedin.com/in/casey-tunturi" target="_blank">linkedin.com/in/casey-tunturi</a> <br>
+ <h4 align="center">Code & Thoughts:  <a href="github.com/Fimeg" target="_blank">github.com/Fimeg</a> | <a href="caseytunturi.com" target="_blank">caseytunturi.com</a>  </h4>
+<h4 align="center">Professional: <a href="https://www.linkedin.com/in/casey-tunturi" target="_blank">linkedin.com/in/casey-tunturi</a> <br></h4>
  <h6 align="center">Open to work | Non-profit collaboration welcome </h6> <br>
 Coffee fuels this: GitHub Activity <a href="https://www.buymeacoffee.com/caseytunturi" target="_blank">Buy Me a Coffee</a> 
 
