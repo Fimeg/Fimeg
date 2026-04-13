@@ -5,11 +5,10 @@
 
 ---
 
-## Casey Tunturi
-
-**Infrastructure & Systems | Principal Infrastructure Architect**
+## <div align="center">Casey Tunturi</div>
 
 <p align="center">
+  <strong>Infrastructure & Systems | Principal Infrastructure Architect</strong><br>
   <em>walking the line between arcane and algorithmic</em><br>
   American relocated to Ontario, Canada 🇨🇦
 </p>
