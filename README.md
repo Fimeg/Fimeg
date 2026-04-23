@@ -1,10 +1,10 @@
 <table width="100%">
   <tr>
-    <td width="50%" align="center" valign="middle">
+    <td width="50%" align="center">
       <h1>Hello.</h1>
       <p><em>We hope what you find is useful.</em></p>
     </td>
-    <td width="50%" align="center" valign="middle">
+    <td width="50%" align="center">
       <h2>Casey Tunturi</h2>
       <p>
         <strong>Infrastructure for self-hosted AI<br>and homelab resilience</strong><br>
