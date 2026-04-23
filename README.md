@@ -1,4 +1,4 @@
-<table>
+<table width="100%">
   <tr>
     <td width="50%" align="center" valign="middle">
       <h1>Hello.</h1>
