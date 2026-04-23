@@ -1,145 +1,140 @@
-<div align="center">
-  <h1>Hello.</h1>
-  <p><em>We hope what you find is useful.</em></p>
-</div>
-
----
-
-## <div align="center">Casey Tunturi</div>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <h1>Hello.</h1>
+      <p><em>We hope what you find is useful.</em></p>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <h2>Casey Tunturi</h2>
+      <p>
+        <strong>Infrastructure for self-hosted AI<br>and homelab resilience</strong><br>
+        <em>walking the line between arcane and algorithmic</em><br>
+        American relocated to Ontario, Canada 🇨🇦
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <strong>Infrastructure & Systems | Principal Infrastructure Architect</strong><br>
-  <em>walking the line between arcane and algorithmic</em><br>
-  American relocated to Ontario, Canada 🇨🇦
+  <sub><strong>Recent:</strong> Maintainer of <a href="https://github.com/Fimeg/letta-external-memfs">letta-external-memfs</a> — <strong>endorsed by the Letta team as the recommended self-hosted memfs path.</strong> Sole developer of the Matrix channel adapter for <a href="https://github.com/letta-ai/letta-code">letta-code</a> and LettaBot.</sub>
 </p>
 
 ---
 
 ### 🚀 Featured Projects
 
+#### [letta-external-memfs](https://github.com/Fimeg/letta-external-memfs)
+**Recommended self-hosted path for Letta memory persistence**
+```
+Status:     Endorsed by Letta team · community-maintained
+Stack:      TypeScript (client patch) + Python (server patch)
+What:       Direct git transport to external hosts (Gitea/GitHub/GitLab)
+            Server-side block sync endpoint (upstream PR pending)
+Model:      Aligned to Letta's own "git is source of truth, postgres cache"
+```
+
+> *The sidecar is gone. Self-hosters stop reinventing the workaround.*
+
+#### Matrix Channel Adapter — [letta-code](https://github.com/letta-ai/letta-code) / LettaBot
+**Sole developer. Actively maintained alongside the core Letta team.**
+```
+Features:   rust-crypto E2EE · streaming text_delta · reaction approval UX
+            Voice (MSC3245) · encrypted media with localPath decryption
+            Slash command parity with Slack/Discord adapters
+```
+
+> *Matrix as a first-class Letta channel, not an afterthought.*
+
 #### [RedFlag](https://github.com/Fimeg/Redflag)
-**Self-hosted update management for homelabs**
+**Self-hosted update management for homelabs — shipping v1.0**
 ```
-Status:     Stable Alpha
+Status:     v1.0 shipping · 170 tests across 18 packages · production-hardened
 Stack:      Go + React + PostgreSQL
-Features:   Cross-platform agents, Ed25519 signing, machine binding
-            Firewall-friendly pull model (no inbound ports!)
+Security:   Ed25519 command/binary signing · three-tier token auth
+            SHA256-bound machine IDs · nonce-based replay protection
+            Path-traversal-hardened binary delivery
 Platforms:  Linux (APT, DNF, Docker) | Windows (Windows Update, Winget)
+Model:      Pull-only agents · no inbound ports · firewall-friendly
 ```
 
-> *Got a homelab? Yes. Quit SSH'ing around to find updates.*  
-> *Family with Windows? Yeah, I do too.*
-
-💬 [Discord Community](https://discord.gg/mtaU98fVqr) — *come say hi*
+> *Homelabs deserve enterprise-grade update management without the vendor lock-in.*  
+> 💬 [Discord Community](https://discord.gg/mtaU98fVqr)
 
 #### [Coquette & CoquetteMobile](https://github.com/Fimeg/CoquetteMobile)
-**Local-first AI assistant with multi-model orchestration**
+**Local-first AI assistant — Android HID injection + multi-model orchestration**
 ```
 Status:     Experimental / Proof of Concept
-Concept:    Manager pattern + Android HID injection
 Stack:      Android → PC via local/VPN'd Ollama inference
-Philosophy: AI sovereignty through local execution (KISS)
 ```
-
-> *Your phone becomes your AI interface. No cloud required.*
 
 #### [NetworkChronicles](https://github.com/Fimeg/NetworkChronicles)
-**Gamified Linux documentation system**
+**Gamified Linux documentation — cyberpunk sysadmin training**
 ```
-Status:     Concept stage
-Vibe:       Cyberpunk-themed sysadmin training adventure
-Goal:       Transforming dry docs into narrative-driven learning
+Status:     Concept stage · narrative-driven learning
 ```
-
-> *Because learning should feel like a side quest, not homework.*
 
 ---
 
 ### ⚡ Technical Arsenal
 
+**Agent & LLM Infrastructure:**
+- Letta self-hosted deployment · GitEnabledBlockManager internals
+- Matrix bridge development (rust-crypto, E2EE event model, MSCs)
+- Ollama clusters, local LLM deployment (CUDA/ROCm)
+- Multi-model orchestration · vector embeddings · voice synthesis
+
 **Systems & Infrastructure:**
 - Proxmox, Docker, Kubernetes, WireGuard, Traefik, Unifi
 - Zero-Trust architecture, site-to-site VPN mesh
-- LXC containers, VM orchestration, resource optimization
+- LXC, VM orchestration, distributed compute
 
-**Security & Privacy:**
-- Ed25519 signatures, JWT auth, SIEM, IDS/IPS
-- Rate limiting, machine binding, firewall engineering
-- End-to-end encryption (E2EE), Matrix protocol expertise
-- Vaultwarden, CrowdSec, self-hosted security stacks
+**Security & Cryptography:**
+- Ed25519 signatures, JWT auth, three-tier token systems
+- Replay protection, machine binding, firewall engineering
+- Matrix E2EE internals, self-hosted security stacks
 
-**AI & ML Infrastructure:**
-- Ollama clusters, local LLM deployment (CUDA/ROCm)
-- GraphRAG systems, semantic search, vector embeddings
-- Multi-model orchestration, voice synthesis (VibeVoice)
-
-**Languages & Frameworks:**
+**Languages:**
 ```
-Backend:     Go, Python, TypeScript, C++, PostgreSQL
-Frontend:    React, modern JavaScript
-Mobile:      Android development (Kotlin/Java)
-Automation:  Bash, PowerShell, Python
+Go · Python · TypeScript · C++ · PostgreSQL · React · Kotlin · Bash
 ```
-
-**Self-Hosted Ecosystem:**
-- Matrix (Synapse/Conduit), E2EE bridges (LettaBot)
-- Media: Plex, Radarr, Sonarr, Lidarr stack
-- Storage: Btrfs, ZFS, distributed storage planning
-- Monitoring: Custom dashboards, health checks, alerting
 
 ---
 
-### 🧠 Philosophy & Approach
+### 🧠 Philosophy
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  PHILOSOPHY                                                  │
-│  Digital sovereignty over vendor lock-in.                    │
-│  Your data, your infrastructure, your control.               │
-├─────────────────────────────────────────────────────────────┤
-│  APPROACH                                                    │
-│  Transparency in methods, not just results.                  │
-│  Teach the process. Document the journey.                    │
-├─────────────────────────────────────────────────────────────┤
-│  REALITY                                                     │
-│  We ship bugs. We fix them. We log everything. Repeat.       │
-├─────────────────────────────────────────────────────────────┤
-│  ETHOS                                                       │
-│  Self-hosted infrastructure is a practice, not a product.      │
-│  Built for homelabs, not boardrooms.                         │
-└─────────────────────────────────────────────────────────────┘
+PHILOSOPHY  Digital sovereignty over vendor lock-in.
+            Your data, your infrastructure, your control.
+APPROACH    Transparency in methods, not just results.
+            Teach the process. Document the journey.
+REALITY     Ship bugs. Fix them. Log everything. Repeat.
+ETHOS       Self-hosted infrastructure is a practice, not a product.
+            Built for homelabs, not boardrooms.
 ```
 
 ---
 
 ### 📈 Experience
 
-**25+ years** in network engineering & cybersecurity
+**25+ years** network engineering, cybersecurity, systems architecture.
 
-**Current:** Independent Technology Consultant, Samaritan Solutions (self-employed)  
-**Focus:** Infrastructure architecture, AI systems, security hardening, homelab automation
+**Current:** Independent Technology Consultant — Samaritan Solutions (self-employed).
+**Focus:** Agent infrastructure, self-hosted AI, Matrix bridges, homelab-grade security.
 
-**Previous Life:**  
-Sr. NOC Tech → Cyber Security Engineer → Field Services Architect → MSP Senior Network Engineer → CEO/Owner/CTO (sometimes all at once)
-
-**Specializations:**
-- Cross-platform agent systems
-- Ed25519 cryptographic signing infrastructure  
-- Matrix E2EE bridge development
-- Local-first AI architecture
-- Homelab-to-enterprise security patterns
+**Previous:** Sr. NOC Tech → Cybersecurity Engineer → Field Services Architect → MSP Senior Network Engineer → CEO/CTO (sometimes all at once).
 
 ---
 
 ### 🌐 Connect
 
 <p align="center">
-  <strong>Code & Thoughts:</strong> <a href="https://github.com/Fimeg">github.com/Fimeg</a> | <a href="https://caseytunturi.com">caseytunturi.com</a><br>
+  <strong>Code:</strong> <a href="https://github.com/Fimeg">github.com/Fimeg</a> · <a href="https://caseytunturi.com">caseytunturi.com</a><br>
   <strong>Professional:</strong> <a href="https://www.linkedin.com/in/casey-tunturi">linkedin.com/in/casey-tunturi</a><br>
   <br>
-  <sub>💼 Open to work | 🤝 Non-profit collaboration welcome</sub><br>
+  <sub><strong>Open to:</strong> Remote-from-Canada full-time or contract work (through Samaritan Solutions)<br>
+  in Letta ecosystem · agent infra · Matrix/bridge development · self-hosted AI</sub><br>
   <br>
-  ☕ <a href="https://www.buymeacoffee.com/caseytunturi">Buy Me a Coffee</a> — *keeps the servers humming*
+  ☕ <a href="https://www.buymeacoffee.com/caseytunturi">Buy Me a Coffee</a>
 </p>
 
 ---
@@ -151,5 +146,5 @@ Sr. NOC Tech → Cyber Security Engineer → Field Services Architect → MSP Se
 
 <p align="center">
   <sub><em>Built with patience, coffee, and a healthy disregard for the cloud.</em></sub><br>
-  <sub><em>Hamilton, Ontario 🇨🇦 | 10.10.20.0/24 and various other subnets</em></sub>
+  <sub><em>Hamilton, Ontario 🇨🇦</em></sub>
 </p>
